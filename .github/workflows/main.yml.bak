@@ -14,7 +14,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    name: Zip installer Build
+    name: Image Build
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -23,7 +23,6 @@ jobs:
       matrix:
         device:
           - sweet
-          - sweetin
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -38,11 +37,11 @@ jobs:
 
       - name: Build device ${{ matrix.device }}
         run: |
-          ./build.sh --device ${{ matrix.device }} --installer-zip
+          ./build.sh --device ${{ matrix.device }}
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3
         with: # Artifact name
           name: ${{ matrix.device }}
           # A file, directory or wildcard pattern that describes what to upload
-          path: ./*.zip
+          path: ./*.img

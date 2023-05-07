@@ -62,6 +62,6 @@ FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
 }
 
 // Mainline device tree blob
-# FILE FREEFORM = 25462CDA-221F-47DF-AC1D-259CFAA4E326 {
-# 	 SECTION RAW = Platform/Xiaomi/sm7150/FdtBlob/sweet/sm7150-xiaomi-sweet.dtb
-# }
+FILE FREEFORM = 25462CDA-221F-47DF-AC1D-259CFAA4E326 {
+	 SECTION RAW = Platform/Xiaomi/sm7150/FdtBlob/sweet/sm7150-xiaomi-sweet.dtb
+}

@@ -44,39 +44,39 @@ FILE DRIVER = 9A00771F-36D4-4DD5-8916-C48ED9B16B86 {
 // ACPI Tables
 FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
 # 	Customized DSDT
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/DSDT.aml
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/DSDT.aml
 # 	Common Tables
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/dbg2.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/bgrt.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Csrt.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/spcr.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Facp.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Madt.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Facs.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Gtdt.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/IORT.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Mcfg.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Pptt.acpi
-#	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/TPM2.acpi
-#	SECTION UI = "AcpiTables"
-
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/DSDT.aml
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/BGRT.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/DBG2.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/FACS.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/IORT.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/MCFG.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/SPCR.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/CSRT.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/FACP.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/GTDT.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/MADT.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/PPTT.acp
-	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/TPM2.acp
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/dbg2.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/bgrt.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Csrt.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/spcr.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Facp.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Madt.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Facs.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Gtdt.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/IORT.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Mcfg.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/Pptt.acpi
+	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sweet/TPM2.acpi
 	SECTION UI = "AcpiTables"
+
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/DSDT.aml
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/BGRT.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/DBG2.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/FACS.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/IORT.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/MCFG.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/SPCR.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/CSRT.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/FACP.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/GTDT.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/MADT.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/PPTT.acp
+# 	SECTION RAW = Platform/Xiaomi/sm7150/AcpiTables/sc7180/TPM2.acp
+# 	SECTION UI = "AcpiTables"
 }
 
 // Mainline device tree blob
-FILE FREEFORM = 25462CDA-221F-47DF-AC1D-259CFAA4E326 {
-	 SECTION RAW = Platform/Xiaomi/sm7150/FdtBlob/sweet/sm7150-xiaomi-sweet.dtb
-}
+# FILE FREEFORM = 25462CDA-221F-47DF-AC1D-259CFAA4E326 {
+# 	 SECTION RAW = Platform/Xiaomi/sm7150/FdtBlob/sweet/sm7150-xiaomi-sweet.dtb
+# }

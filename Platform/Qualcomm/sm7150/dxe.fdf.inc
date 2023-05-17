@@ -65,11 +65,11 @@
     SECTION UI = "PlatformInfoDxeDriver"
   }
 
-#   FILE DRIVER = 5776232e-082d-4b75-9a0e-fe1d13f7a5d9 {
-#     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/PmicDxe/PmicDxe.depex
-#     SECTION PE32 = Platform/EFI_Binaries/Drivers/sm7150/PmicDxe/PmicDxe.efi
-#     SECTION UI = "PmicDxe"
-#   }
+  FILE DRIVER = 5776232e-082d-4b75-9a0e-fe1d13f7a5d9 {
+    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/PmicDxe/PmicDxe.depex
+    SECTION PE32 = Platform/EFI_Binaries/Drivers/sm7150/PmicDxe/PmicDxe.efi
+    SECTION UI = "PmicDxe"
+  }
 
   FILE DRIVER = CB29F4D1-7F37-4692-A416-93E82E219766 {
     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/RpmhDxe/RpmhDxe.depex
@@ -77,11 +77,11 @@
     SECTION UI = "RpmhDxe"
   }
 
-#   FILE DRIVER = 2d7a83e3-e343-4ffb-9109-631f2ee11694 {
-#     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/ScmDxe/ScmDxe.depex
-#     SECTION PE32 = Platform/EFI_Binaries/Drivers/sm7150/ScmDxe/ScmDxe.efi
-#     SECTION UI = "ScmDxe"
-#   }
+  FILE DRIVER = 2d7a83e3-e343-4ffb-9109-631f2ee11694 {
+    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/ScmDxe/ScmDxe.depex
+    SECTION PE32 = Platform/EFI_Binaries/Drivers/sm7150/ScmDxe/ScmDxe.efi
+    SECTION UI = "ScmDxe"
+  }
 
   FILE DRIVER = 9c1eb71f-dd6c-4ed5-9f6a-5cc0ca789f16 {
     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/ShmBridgeDxe/ShmBridgeDxe.depex
@@ -101,11 +101,11 @@
     SECTION UI = "SPMI"
   }
 
-#   FILE DRIVER = 6925fad3-e243-4b69-ad61-3f978c8abc60 {
-#     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/TzDxe/TzDxe.depex
-#     SECTION PE32 = Platform/EFI_Binaries/Drivers/sm7150/TzDxe/TzDxe.efi
-#     SECTION UI = "TzDxe"
-#   }
+  FILE DRIVER = 6925fad3-e243-4b69-ad61-3f978c8abc60 {
+    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/TzDxe/TzDxe.depex
+    SECTION PE32 = Platform/EFI_Binaries/Drivers/sm7150/TzDxe/TzDxe.efi
+    SECTION UI = "TzDxe"
+  }
 
   FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/sm7150/UFSDxe/UFSDxe.depex

@@ -128,6 +128,10 @@ APRIORI DXE {
   INF SecurityPkg/VariableAuthenticated/SecureBootDefaultKeysDxe/SecureBootDefaultKeysDxe.inf
 !endif
 
+!if $(USE_SIMPLEFBDXE) == TRUE
+  INF SurfaceDuoFamilyPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+!endif
+
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
 
   INF MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf

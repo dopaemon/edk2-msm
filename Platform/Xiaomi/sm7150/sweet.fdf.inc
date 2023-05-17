@@ -29,11 +29,11 @@ FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
 #     SECTION UI = "UsbfnDwc3Dxe"
 # }
 
-FILE DRIVER = 5776232E-082D-4B75-9A0E-FE1D13F7A5D9 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/sweet/PmicDxe/PmicDxeLa.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/sweet/PmicDxe/PmicDxeLa.efi
-    SECTION UI = "PmicDxe"
-}
+# FILE DRIVER = 5776232E-082D-4B75-9A0E-FE1D13F7A5D9 {
+#     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/sweet/PmicDxe/PmicDxeLa.depex
+#     SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/sweet/PmicDxe/PmicDxeLa.efi
+#     SECTION UI = "PmicDxe"
+# }
 
 # FILE DRIVER = 9A00771F-36D4-4DD5-8916-C48ED9B16B86 {
 #     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/sweet/HALIOMMUDxe/HALIOMMUDxe.depex

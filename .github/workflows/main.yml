@@ -44,7 +44,8 @@ jobs:
       - name: Install requires packages
         run: |
           sudo dpkg --add-architecture i386
-          sudo eatmydata apt-get install ppa-purge
+          sudo apt-get update
+          sudo eatmydata apt-get install -y ppa-purge
           sudo eatmydata ppa-purge -y ppa:ubuntu-toolchain-r/test
           sudo apt-get update
           sudo apt-get -y install build-essential uuid-dev clang llvm iasl nasm gcc-aarch64-linux-gnu abootimg python3-distutils python3-pil python3-git gettext

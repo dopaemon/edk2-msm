@@ -35,10 +35,18 @@ jobs:
           sudo curl -s https://gist.githubusercontent.com/ishad0w/788555191c7037e249a439542c53e170/raw/3822ba49241e6fd851ca1c1cbcc4d7e87382f484/sources.list > sources.list
           sudo mv -v sources.list /etc/apt/sources.list
 
+      - name: Wine inataller
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo mkdir -pm755 /etc/apt/keyrings
+          sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+          sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+
       - name: Install requires packages
         run: |
           sudo apt-get update
           sudo apt-get -y install build-essential uuid-dev clang llvm iasl nasm gcc-aarch64-linux-gnu abootimg python3-distutils python3-pil python3-git gettext
+          sudo apt-get -y install --install-recommends winehq-stable
 
       - name: Build device ${{ matrix.device }}
         run: |

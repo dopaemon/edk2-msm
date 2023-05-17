@@ -46,7 +46,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get -y install build-essential uuid-dev clang llvm iasl nasm gcc-aarch64-linux-gnu abootimg python3-distutils python3-pil python3-git gettext
-          sudo apt-get -y install --install-recommends winehq-stable
+          # sudo apt-get -y install --install-recommends winehq-stable
+          sudo apt-get -y install --install-recommends winehq-devel wine-devel wine-devel-amd64
 
       - name: Build device ${{ matrix.device }}
         run: |

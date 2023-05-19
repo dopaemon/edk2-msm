@@ -2,7 +2,7 @@
 FILE DRIVER = 8e9bd160-b184-11df-94e2-0800200c9a66 {
     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/sweet/DALSYSDxe/DALSYSDxe.depex
     SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/sweet/DALSYSDxe/DALSYSDxe.efi
-    SECTION UI = "DALSYSDxe"
+    SECTION UI = "DALSys"
 }
 
 FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
@@ -29,17 +29,17 @@ FILE DRIVER = 94f8a6a7-dc34-4101-88c1-99179cceae83 {
     SECTION UI = "UsbfnDwc3Dxe"
 }
 
-FILE DRIVER = 5776232E-082D-4B75-9A0E-FE1D13F7A5D9 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/sweet/PmicDxe/PmicDxeLa.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/sweet/PmicDxe/PmicDxeLa.efi
-    SECTION UI = "PmicDxe"
-}
+# FILE DRIVER = 5776232E-082D-4B75-9A0E-FE1D13F7A5D9 {
+#     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/sweet/PmicDxe/PmicDxeLa.depex
+#     SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/sweet/PmicDxe/PmicDxeLa.efi
+#     SECTION UI = "PmicDxe"
+# }
 
-FILE DRIVER = 9A00771F-36D4-4DD5-8916-C48ED9B16B86 {
-    SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/sweet/HALIOMMUDxe/HALIOMMUDxe.depex
-    SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/sweet/HALIOMMUDxe/HALIOMMUDxe.efi
-    SECTION UI = "HALIOMMU"
-}
+# FILE DRIVER = 9A00771F-36D4-4DD5-8916-C48ED9B16B86 {
+#     SECTION DXE_DEPEX = Platform/EFI_Binaries/Drivers/Devices/sweet/HALIOMMUDxe/HALIOMMUDxe.depex
+#     SECTION PE32 = Platform/EFI_Binaries/Drivers/Devices/sweet/HALIOMMUDxe/HALIOMMUDxe.efi
+#     SECTION UI = "HALIOMMU"
+# }
 
 // ACPI Tables
 FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
